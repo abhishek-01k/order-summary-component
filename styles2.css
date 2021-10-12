@@ -1,0 +1,157 @@
+body{
+    background-color:  hsl(225, 100%, 94%);
+    background-image: url("./images/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+
+.card{
+    border: 2px;
+    border-radius: 1rem;
+    width: 80%;
+    
+}
+
+.card-img-top{
+    border-radius: 1rem 1rem 0 0;
+}
+
+.card-title{
+    margin-top: 16px;    margin-bottom: 20px;
+}
+
+.card-text{
+    opacity: 0.5;
+    font-size: 1.5rem;
+}
+
+.top-part{
+    width:35%;
+    margin:auto;
+    text-align: center;
+    margin-top: 65px;;
+  
+
+
+}
+
+.middlepart{
+    display: flex;
+    background-color: hsl(227, 37%, 93%);
+    margin: 10%;
+    border-radius: 1rem;
+}
+
+.annual-plan{
+    flex:2;
+    margin-top: 16px;
+    margin-left: 8px;
+    font-size: 1.2rem;
+    text-align: justify;
+}
+
+
+
+.link{
+    flex: 1;
+    margin: 6%;
+}
+
+.music{
+    align-self: center;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.btn-div{
+  
+    border-radius: 1rem;;
+}
+.btn{
+    width: 72%;;
+    margin: auto;
+    height: 48px;;
+    margin-bottom : 3.5%;
+    border-radius : 9px;
+    color: white;
+    background-color: hsl(245, 75%, 52%);
+}
+
+.btn:hover{
+    color: white;
+    background-color:  hsl(278, 97%, 49%);
+}
+
+.button-2{
+    background-color: white;
+    color: black;
+    border-style: none;
+}
+
+.button-2:hover{
+    background-color: hsl(224, 22%, 64%);
+    color: black;;
+}
+
+.attribution{
+    font-size: 1em;
+}
+
+@media screen and (max-width: 1070px){
+
+.top-part{
+    width: 50%;
+}
+
+}
+@media screen and (max-width: 752px){
+
+    .top-part{
+        width: 70%;
+    }
+    
+    }
+    @media screen and (max-width: 532px){
+
+        .top-part{
+            width: 80%;
+        }
+        
+        }
+
+@media screen and (max-width: 490px){
+    .card{
+        width: 85%;
+    }
+    .card-text{
+        font-size: 1rem;
+    }
+    .middlepart{
+        margin: 6%;
+    }
+    .music{
+        padding:0px;
+        width: 36px;
+    }
+    .annual-plan{
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width:360px){
+    .middlepart{
+        margin: 6%;
+    }
+    .annual-plan{
+        font-size: 0.8rem;
+        margin-left: 0px;
+    }
+    .link{
+        margin: 3%;
+        margin-top: 20px;
+    }
+    .btn{
+        width: 85%;
+    }
+}
